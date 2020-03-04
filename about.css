@@ -1,0 +1,23 @@
+@font-face {
+font-family: "Jenna Sue";
+src: url("JennaSue.eot") /* EOT file for IE */
+src: url("JennaSue.ttf") /* TTF file for CSS3 browsers */
+src: url("JennaSue.woff") /* TTF file for CSS3 browsers */
+src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf');
+}
+
+.about {
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 800px;
+	text-align: center;
+}
+
+.about img {
+	max-width: 100%;
+}
+
+.about > h2 {
+	font-family: "Jenna Sue";
+}
